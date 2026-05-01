@@ -1,1 +1,0 @@
-echo 'const http=require("http");http.createServer((req,res)=>res.end(JSON.stringify({status:"ok"}))).listen(process.env.PORT||3001,()=>console.log("Running on",process.env.PORT||3001));' > index.js
